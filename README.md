@@ -7,9 +7,9 @@
 
   <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/AlexBitar80/Ignite-github">
 
-  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/AlexBitar80/Ignite-github?style=social">
-
   <img alt="GitHub Repo license" src="https://img.shields.io/github/license/AlexBitar80/Ignite-github">
+
+  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/AlexBitar80/Ignite-github?style=social">
 
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/AlexBitar80/Ignite-github">
 
