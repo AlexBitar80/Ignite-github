@@ -31,7 +31,7 @@ Utilizamos os <u>Hooks</u>, <u>useEffect</u> e <u>useState</u>, vimos sobre <u>I
 -  [react.js](https://pt-br.reactjs.org/)
 -  [webpack](https://webpack.js.org/)
 -  [sass](https://sass-lang.com/documentation)
--  [react-refresh](hhttps://github.com/pmmmwh/react-refresh-webpack-plugin)
+-  [react-refresh](https://github.com/pmmmwh/react-refresh-webpack-plugin)
 -  [babel](https://babeljs.io/)
 
 ## :star: Testar o projeto
