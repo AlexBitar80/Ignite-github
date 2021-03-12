@@ -6,6 +6,9 @@ type Repository = {
   name: string;
   description: string;
   html_url: string;
+  owner: {
+    avatar_url: string;
+  }
 }
 
 export function RepositoryList() {
@@ -18,13 +21,16 @@ export function RepositoryList() {
   }, []);
 
   return (
-    <section className="repository-list">
+    <div className="content">
+      <section className="repository-list">
       <h1>Lista de repositórios</h1>
-      <ul>
-        {repositories.map(repository => {
-          return <RepositoryItem key={repository.name} repository={repository} />
-        })}
-      </ul>
-    </section>
+        <ul>
+          {repositories.map(repository => {
+            return <RepositoryItem key={repository.name} repository={repository} />
+          })}
+        </ul>
+      </section>
+    </div>
+    
   );
 }

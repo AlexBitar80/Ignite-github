@@ -3,16 +3,23 @@ export type RepositoryItemProps = {
     name: string;
     description: string;
     html_url: string;
+    owner: {
+      avatar_url: string;
+    }
   }
 }
 
 export function RepositoryItem(props: RepositoryItemProps) {
   return (
     <li>
-      <strong>{props.repository.name}</strong>
-      <p>{props.repository.description}</p>
+      <img src={props.repository.owner.avatar_url} alt="avatar"/>
 
-      <a href="">{props.repository.html_url}</a>
+      <div className="repo-info">
+        <strong>{props.repository.name}</strong>
+        <p>{props.repository.description}</p>
+
+        <a href="">{props.repository.html_url}</a>
+      </div>
     </li>
   );
 }
