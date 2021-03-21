@@ -1,4 +1,4 @@
-<h2 align="center">Módulo fundamentos do React.js</h3>
+<h2 align="center">Módulo fundamentos do React.js</h2>
 
 <br/>
 
